@@ -1,0 +1,23 @@
+.quadrado {
+    width: 100%;
+    background-color: rgb(128, 67, 182);
+    height: 15vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+main {
+        padding: 30px;
+        font-size: 30px;
+}
+
+@media (mim-width: 200px) {
+    main {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+}
